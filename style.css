@@ -17,6 +17,22 @@ body {
   justify-content: center;
 }
 
+.button-inactive {
+  color: white;
+  background: rgb(200, 200, 200);
+
+}
+
+.button-inactive:hover {
+  cursor: default;
+  filter: brightness(1);
+}
+
+.button-inactive:active {
+  transform: translate(0, 0);
+  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+}
+
 .quote-container {
   width: auto;
   max-width: 900px;
